@@ -6,21 +6,22 @@ How to set up the CNN implemenation in python.
 
 - These are the import used for this implementation, install those that you have not already installed. use "pip install XX" for each package.
 
-import time
-import glob
-import numpy as np
-import os.path as path
-import matplotlib.pyplot as plt
-import tensorflow as tf
-from scipy import misc
-from matplotlib.pyplot import imread
-from datetime import datetime
-from sklearn.metrics import accuracy_score, f1_score
-from keras.models import Sequential
-from keras.layers import Activation, Dropout, Flatten, Dense, Conv2D, MaxPooling2D
-from keras.callbacks import EarlyStopping, TensorBoard
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import classification_report
+IMPORTS
+- import time
+- import glob
+- import numpy as np
+- import os.path as path
+- import matplotlib.pyplot as plt
+- import tensorflow as tf
+- from scipy import misc
+- from matplotlib.pyplot import imread
+- from datetime import datetime
+- from sklearn.metrics import accuracy_score, f1_score
+- from keras.models import Sequential
+- from keras.layers import Activation, Dropout, Flatten, Dense, Conv2D, MaxPooling2D
+- from keras.callbacks import EarlyStopping, TensorBoard
+- from sklearn.metrics import confusion_matrix
+- from sklearn.metrics import classification_report
 
 2. Adjust the parameters in the settings.py file to be the same as the test you wish to run. 
    - Remember to change the folder path to the training and data set. 
